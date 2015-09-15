@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"strings"
 
-	"dev.corp.extreme.co.th/exe-account/account-interface/encrypt"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/database/client"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/database/user"
+	"github.com/MochiKung/account-interface/encrypt"
+	"github.com/MochiKung/account-interface/handler/oauth2"
+	"github.com/MochiKung/account-interface/handler/oauth2/database/client"
+	"github.com/MochiKung/account-interface/handler/oauth2/database/user"
 )
 
 func Init() {

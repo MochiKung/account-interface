@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"time"
 
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/database/access-token"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/database/client"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/database/user"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/handler/token/response-writer"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/string-generator"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/verify"
+	"github.com/MochiKung/account-interface/handler/oauth2"
+	"github.com/MochiKung/account-interface/handler/oauth2/database/access-token"
+	"github.com/MochiKung/account-interface/handler/oauth2/database/client"
+	"github.com/MochiKung/account-interface/handler/oauth2/database/user"
+	"github.com/MochiKung/account-interface/handler/oauth2/handler/token/response-writer"
+	"github.com/MochiKung/account-interface/handler/oauth2/string-generator"
+	"github.com/MochiKung/account-interface/handler/oauth2/verify"
 )
 
 const (

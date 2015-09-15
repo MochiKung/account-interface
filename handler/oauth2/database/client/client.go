@@ -5,8 +5,8 @@ import (
 	"github.com/boltdb/bolt"
 	"time"
 
-	"dev.corp.extreme.co.th/exe-account/account-interface/config"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/database"
+	"github.com/MochiKung/account-interface/config"
+	"github.com/MochiKung/account-interface/handler/oauth2/database"
 )
 
 const ()

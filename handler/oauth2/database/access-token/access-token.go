@@ -1,8 +1,8 @@
 package accesstoken
 
 import (
-	"dev.corp.extreme.co.th/exe-account/account-interface/config"
 	"errors"
+	"github.com/MochiKung/account-interface/config"
 	"github.com/boltdb/bolt"
 	"time"
 )

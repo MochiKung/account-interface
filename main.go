@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"dev.corp.extreme.co.th/exe-account/account-interface/config"
-	"dev.corp.extreme.co.th/exe-account/account-interface/handler/oauth2/handler/token"
+	"github.com/MochiKung/account-interface/config"
+	"github.com/MochiKung/account-interface/handler/oauth2/handler/token"
 )
 
 func main() {
