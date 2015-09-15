@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<itemcode-db>
+  <server>
+    <address>:9999</address>
+    <tls enable="true">
+      <certificate-file>/etc/pki/tls/certs/localhost.crt</certificate-file>
+      <certificate-key-file>/etc/pki/tls/private/localhost.key</certificate-key-file>
+    </tls>
+  </server>
+  <database>
+    <bolt-db>
+      <client-db>bolt-db/client.db</client-db>
+      <user-db>bolt-db/user.db</user-db>
+      <access-token-db>bolt-db/access-token.db</access-token-db>
+      <refresh-token-db>bolt-db/refresh-token.db</refresh-token-db>
+    </bolt-db>
+  </database>
+</itemcode-db>

@@ -1,0 +1,6 @@
+[gerrit]
+host=dev1.corp.extreme.co.th
+port=29418
+project=Account-Interface.git
+defaultbranch=master
+defaultremote=origin
